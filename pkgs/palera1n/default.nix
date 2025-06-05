@@ -144,6 +144,6 @@ in stdenv.mkDerivation rec {
     homepage = "https://palera.in/";
     license = licenses.mit;
     platforms = platforms.all;
-    mainProgram = "palera1n"
+    mainProgram = "palera1n";
   };
 }
