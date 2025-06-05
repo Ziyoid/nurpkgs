@@ -143,6 +143,7 @@ in stdenv.mkDerivation rec {
       "Jailbreak for A8 through A11, T2 devices, on iOS/iPadOS/tvOS 15.0, bridgeOS 5.0 and higher.";
     homepage = "https://palera.in/";
     license = licenses.mit;
-    platforms = platforms.linux;
+    platforms = platforms.all;
+    mainProgram = "palera1n"
   };
 }
