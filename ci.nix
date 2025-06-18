@@ -1,7 +1,7 @@
 { pkgs ? import <nixpkgs> {
   config = {
     allowUnfreePredicate = pkg:
-      builtins.elem (pkgs.lib.getName pkg) [ "checkra1n" ];
+      builtins.elem (pkgs.lib.getName pkg) [ "checkra1n-all-binaries" ];
   };
 } }:
 
