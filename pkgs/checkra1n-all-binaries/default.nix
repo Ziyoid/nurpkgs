@@ -51,7 +51,6 @@ in stdenv.mkDerivation rec {
     homepage = "https://checkra.in/";
     sourceProvenance = with sourceTypes; [ binaryNativeCode ];
     license = licenses.unfreeRedistributable;
-    maintainers = with maintainers; [ onny ];
     platforms = [
       "x86_64-linux"
       "x86_64-darwin"
